@@ -29,4 +29,14 @@ body {
 
 }
 
+@supports (color: color(display-p3 0.65 0.9137 0.6666)) {
+  body {
+      background-color: color(display-p3 0.65 0.9137 0.6666);
+  }
+}
+
+/* Fallback color for older browsers */
+body {
+  background-color: #a6e8aa;
+}
 
