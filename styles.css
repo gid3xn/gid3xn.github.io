@@ -1,0 +1,32 @@
+/* CSS */
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/* this will target all the h1 elements */
+h1 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+
+/* this will target the element with the id "special" */
+#special {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+/* this will target all the elements with the class "highlight" */
+.highlight {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.005em;
+  line-height: 15px;
+
+}
+
+
