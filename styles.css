@@ -69,4 +69,11 @@ nav ul li a {
 /* Style the main content */
 .main-content {
   margin-left: 180px; /* Add a left margin to push the main content to the right */
+  padding: 15px;
 }
+
+body.page-limits-of-intelligence .main-content {
+  margin-left: 180px;
+  padding: 15px;
+}
+
