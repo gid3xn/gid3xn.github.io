@@ -37,3 +37,36 @@ body {
 body {
   background-color: #a6e8aa;
 }
+
+/* Style the navigation bar */
+nav {
+  position: fixed; /* Make the navigation bar fixed */
+  left: 0; /* Position it on the left */
+  top: 0; /* Position it at the top */
+  width: 150px; /* Reduce the width to make the navigation bar narrower */
+  height: 100%; /* Make it span the full height of the page */
+  background-color: #a6e8aa; /* Make the background color the same as the rest of the site */
+  padding: 15px;
+  overflow: auto; /* Add a scrollbar if the content is too long */
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: block; /* Display the links vertically */
+  margin-bottom: 10px; /* Add some space between the links */
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style the main content */
+.main-content {
+  margin-left: 180px; /* Add a left margin to push the main content to the right */
+}
