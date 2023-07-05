@@ -3,6 +3,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+        <?php include 'navbar.php'; ?>
         <h1>The Limits of Intelligence</h1>
         <p>Stuart Russell’s Human Compatible: AI and the Problem of Control (2019)</p>
         <p>February 2020</p>

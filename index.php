@@ -11,10 +11,11 @@
             <p> I am Gid3xn. Welcome to my Web Site.</p>
             <p> 
                 <ul>
-                    <li><a href="writing.html">Writing</a></li>
+                    <li><a href="writing.php">Writing</a></li>
                 </ul>
             </p>
             <p>I am a trial lawyer building this website from scratch, teaching myself CSS, HTML, and Git along the way.</p>
         </div>
     </body>
 </html>
+

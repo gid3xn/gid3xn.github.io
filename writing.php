@@ -5,7 +5,7 @@
     <body>
         <h1>Writing</h1>
         <ul>
-            <li><a href="limits-of-intelligence.html">The Limits of Intelligence</a></li>
+            <li><a href="limits-of-intelligence.php">The Limits of Intelligence</a></li>
             <!-- Add more writings as you write them -->
         </ul>
     </body>
