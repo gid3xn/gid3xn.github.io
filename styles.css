@@ -1,13 +1,12 @@
 /* CSS */
-:root { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
-}
+:root { font-family: 'Times New Roman', serif; }
 
 /* this will target all the h1 elements */
 h1 {
   font-size: 2em;
   color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', serif;
+  font-weight: bold; /* make headings bold */
 }
 
 /* this will target the element with the id "special" */
@@ -22,11 +21,10 @@ h1 {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Times New Roman', serif;
   font-size: 11px;
   letter-spacing: 0.005em;
   line-height: 15px;
-
 }
 
 @supports (color: color(display-p3 0.65 0.9137 0.6666)) {
@@ -39,4 +37,3 @@ body {
 body {
   background-color: #a6e8aa;
 }
-
