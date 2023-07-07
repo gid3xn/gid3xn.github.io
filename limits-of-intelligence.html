@@ -19,5 +19,12 @@
             <p>In his new book, the preeminent computer scientist Stuart Russell warns that we humans better prepare for the possibility that “machines will far exceed the human capacity for decision making in the real world.” Many scholars aren’t worried about it. Some think superhuman AI is simply im-possible—that human-level intelligence is not platform independent; it requires biological brain matter. This view, says Stuart Russell, is simply “wishful thinking.” After all, “what evidence could there be that no physically possible arrangement of atoms outperforms the human brain?” </p>
             
             <p>It has always been the goal of AI research, Russell writes, to develop an AI that is not limited to a narrow purpose like driving or winning board games but which can reason and learn as well as humans. An artificial general intelligence (AGI), also called superintelligent AI, would be endowed with a general-purpose problem-solving ability, analogous to the human mind. An AGI would able to read and understand every book ever written (150 million or so) in a few hours. At the same time, it could monitor every satellite, CCTV, television and radio broadcast, every email and phone conversation taking place all over the globe. Very quickly it would know more about us than we do. Russell reluctantly predicts that humans may build a superintelligence within the lifetime of his children. It would be the single most important event in human history, he says. When it arrives, we’d better be sure we can remain in the driver’s seat. </p>
+    <script>
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+        });
+        </script>
     </body>
 </html>
