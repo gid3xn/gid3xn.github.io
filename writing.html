@@ -6,17 +6,21 @@
         <!-- Place this where you want the navbar to appear -->
         <div id="navbar-placeholder"></div>
 
-        <h1>Writing</h1>
-        <ul>
-            <li><a href="limits-of-intelligence.html">The Limits of Intelligence</a></li>
-            <!-- Add more writings as you write them -->
-        </ul>
-    <script>
-        fetch('navbar.html')
-            .then(response => response.text())
-            .then(data => {
-            document.getElementById('navbar-placeholder').innerHTML = data;
-         });
+        <!-- Main content with added left margin -->
+        <div style="margin-left: 200px;">
+            <h1>Writing</h1>
+            <ul>
+                <li><a href="limits-of-intelligence.html">The Limits of Intelligence</a></li>
+                <!-- Add more writings as you write them -->
+            </ul>
+        </div>
+
+        <script>
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+             });
         </script>
             
     </body>
